@@ -1,7 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
-import SideBar from '@/app/components/sideBar'
+import SideBar from '@/components/sideBar'
 import SessionProvider from '@/context/SessionProvider'
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['300', '400', '500', '700', '900'] })

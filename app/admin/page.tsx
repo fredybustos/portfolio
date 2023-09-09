@@ -1,6 +1,6 @@
 "use client"
-import DropFile from "@/app/components/dropFile";
-import Spinner from "@/app/components/spinner";
+import DropFile from "@/components/dropFile";
+import Spinner from "@/components/spinner";
 import useAdmin from "./useAdmin";
 
 export default function Admin() {
