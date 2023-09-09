@@ -3,8 +3,13 @@ import { Post } from "@prisma/client"
 
 const BASE_URL = process.env.NEXTAUTH_URL
 export async function getPosts() {
-  const { data } = await axios.get<{ posts: Array<Post> }>(`${BASE_URL}/api/blog`)
-  return data
+  try {
+    const { data } = await axios.get<{ posts: Array<Post> }>(`${BASE_URL}/api/blog`)
+    return data
+  } catch (error) {
+    console.error(error)
+  }
+  return { posts: [] as Array<Post> }
 }
 
 export const getPostById = async (id: string) => {
