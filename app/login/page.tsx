@@ -1,8 +1,8 @@
 "use client"
 import React from 'react'
 import useSignin from './useSignin'
-import Spinner from '@/components/spinner'
-import { Close } from '@/components/icons'
+import Spinner from '@/app/components/spinner'
+import { Close } from '@/app/components/icons'
 
 export default function Login() {
   const { isLoading, router, errorMessage, onSubmit } = useSignin()

@@ -3,7 +3,7 @@ import React from 'react'
 import Markdown from 'markdown-to-jsx'
 import { MARK_OPTIONS } from '@/constants'
 import { formatDate } from '@/utils'
-import Breadcrumbs from '@/components/breadcrumbs'
+import Breadcrumbs from '@/app/components/breadcrumbs'
 import { getPostById } from '@/services/server'
 
 type PostProps = {

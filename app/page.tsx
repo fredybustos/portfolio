@@ -1,4 +1,4 @@
-import { Eye } from "@/components/icons"
+import { Eye } from "@/app/components/icons"
 import Link from "next/link"
 import { getPosts } from "@/services/server"
 
