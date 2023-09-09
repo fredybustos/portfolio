@@ -2,26 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.home-link {
+  @apply mb-10
+}
+
+.home-link:hover .home-read {
+  @apply underline
+}
+
+.home-link:hover .home-icon {
+  @apply border-[#a4a5a7]
+}
+
+.home-link:hover .fill-eye  {
+  stroke: rgb(246, 87, 87);
+}
+
+.markdown-pre {
+  @apply my-6;
+  @apply p-4;
+  @apply bg-[#012b36];
+  @apply rounded-xl;
+  @apply w-full;
+  @apply overflow-auto;
+  @apply text-white;
+}
+
+.markdown-p {
+  @apply my-4
+}
+
+.markdown-p > code, li > code {
+  @apply bg-[#eff1f2];
+  @apply rounded-[6px];
+  @apply px-2;
+  @apply py-1
+}
+
+.markdown-li {
+  @apply my-4;
 }

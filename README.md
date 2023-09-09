@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fredy Bustos - Frontend Developer Portfolio
 
-## Getting Started
+Welcome to my portfolio! Here, I showcase my work as a frontend developer using the latest technologies to create a responsive and visually appealing web experience.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Next.js 13
+I have built this portfolio using Next.js 13, a powerful React framework that provides server-side rendering, routing, and optimized performance out of the box. This ensures fast loading times and a smooth user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Tailwind CSS
+For styling, I have utilized Tailwind CSS, a utility-first CSS framework. Tailwind CSS allows for rapid development and customization with its extensive set of pre-built classes. It helps maintain a consistent design while keeping the codebase clean and maintainable.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prisma
+Prisma is my go-to database toolkit for connecting to various databases seamlessly. It simplifies database operations, making it easier to manage and query data.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### MongoDB
+In this portfolio, I have integrated MongoDB, a NoSQL database, to store and manage data efficiently. MongoDB's flexibility and scalability make it an excellent choice for projects with evolving data needs.
 
-## Learn More
+## Blogging about My Journey
 
-To learn more about Next.js, take a look at the following resources:
+I am passionate about sharing my knowledge and experiences as a frontend developer. Here's how I approach writing blog posts to share valuable information.
+I believe in staying up-to-date with the latest industry trends and technologies. I constantly learn new concepts, frameworks, and best practices to expand my knowledge base.
+To create meaningful blog posts, I put my learning into practice. I work on real projects, experiment with new techniques, and document my experiences, including both successes and challenges.
+I address common problems and challenges faced by developers in the frontend world. I share solutions, tips, and tricks to make the development process smoother and more efficient.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Visit My GitHub Profile
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Start by navigating to my [GitHub profile](https://github.com/fredybustos)
