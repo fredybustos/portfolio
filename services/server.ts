@@ -13,6 +13,13 @@ export async function getPosts() {
 }
 
 export const getPostById = async (id: string) => {
-  const { data } = await axios.get<{ post: Post }>(`${BASE_URL}/api/blog/${id}`)
-  return data
+  try {
+    const { data } = await axios.get<{ post: Post }>(`${BASE_URL}/api/blog/${id}`)
+    return data
+  } catch (error) {
+    console.error(error)
+  }
+  return {
+    post: {} as Post
+  }
 }
